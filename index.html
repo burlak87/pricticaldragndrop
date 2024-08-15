@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indexStyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button>Создать профиль</button></li>
+                <li><button id="createBoard">Создать доску</button></li>
+                <li><button id="createTask">Создать задачу</button></li>
+                <li><button>Свои задачи</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="table" class="table">
+            <dialog id="dialog" class="dialog">
+                <form id="form" class="form">
+                    <h3 id="formTitle"></h3>
+                    <input id="input" type="text">
+                    <button id="btnClose">Закрыть</button>
+                </form>
+            </dialog>
+            <section id="tasksBoard" class="board">
+                <h2 id="boardTitle" class="title">tasks</h2>
+                <article class="task">
+                    <section class="time">
+                        <p id="beginningWith">
+                            05.08.2024
+                        </p>
+                        <p id="finishing">
+                            09.08.2024
+                        </p>
+                    </section>
+                    <p class="yourTask">
+                        Завершить задание данное преподавателем!
+                    </p>
+                    <section class="yourMark">
+                        <p>Важная</p>
+                        <p>Легкая</p>
+                    </section>
+                </article>
+                <article class="task">
+                    <section class="time">
+                        <p id="beginningWith">
+                            05.08.2024
+                        </p>
+                        <p id="finishing">
+                            09.08.2024
+                        </p>
+                    </section>
+                    <p class="yourTask">
+                        Завершить задание данное преподавателем!
+                    </p>
+                    <section class="yourMark">
+                        <p>Важная</p>
+                        <p>Легкая</p>
+                    </section>
+                </article>
+            </section>
+            <section id="inProgress" class="board">
+                <h2 class="title">in progress</h2>
+                <article class="task">
+                    <section class="time">
+                        <p id="beginningWith">
+                            05.08.2024
+                        </p>
+                        <p id="finishing">
+                            09.08.2024
+                        </p>
+                    </section>
+                    <p class="yourTask">
+                        Завершить задание данное преподавателем!
+                    </p>
+                    <section class="yourMark">
+                        <p>Важная</p>
+                        <p>Легкая</p>
+                    </section>
+                </article>
+            </section>
+            <section id="completed" class="board">
+                <h2 class="title">completed</h2>
+                <article class="task">
+                    <section class="time">
+                        <p id="beginningWith">
+                            05.08.2024
+                        </p>
+                        <p id="finishing">
+                            09.08.2024
+                        </p>
+                    </section>
+                    <p class="yourTask">
+                        Завершить задание данное преподавателем!
+                    </p>
+                    <section class="yourMark">
+                        <p>Важная</p>
+                        <p>Легкая</p>
+                    </section>
+                </article>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Какой-то временный футер</p>
+    </footer>
+    <script src="./indexScript.js"></script>
+</body>
+</html>
